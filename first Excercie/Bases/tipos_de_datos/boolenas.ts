@@ -1,6 +1,7 @@
 (()=>{
     //los booleanos pueden ser unicamente true o false,
-    //pero dependiendo de la configuracion del tsConfig, podemos tener undefined o null
+    //pero dependiendo de la configuracion del tsConfig, 
+    //podemos tener undefined o null
 
     let isSuperman:boolean = true;
     console.log(isSuperman);
@@ -14,7 +15,8 @@
     Ternario = isBatman ? 'si es Bantam ' : 'no es Batman';
     console.log(Ternario);
     
-    //la actual configuracion no soporta estos como booleanos si no como otros tipos de datos.
+    //la actual configuracion no soporta estos como booleanos 
+    //si no como otros tipos de datos.
     let isSuperWoman = null;
     console.log(isSuperWoman);
 

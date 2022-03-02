@@ -9,11 +9,11 @@
     const a = callBatman();
 
 
-    //void indica qu ela funcion no reteorna nada
+    //void indica que la funcion no retorna nada
 
 
-    //despues del parentesis puedes poner el tipo de dato que va a retornar
-    //la funcion, puede ser int, sttring etc...
+    //despues del paréntesis puedes poner el tipo de dato que va a retornar
+    //la función, puede ser int, string etc...
     function callBatman2():void
     {
         //return 1; //esto marca error por que se supone que
@@ -33,8 +33,4 @@
     }
 
     //poner el tipo de dato que retorna una funcion es buena practica.
-
-
-    
-
 })()

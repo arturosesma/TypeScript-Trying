@@ -3,25 +3,31 @@
 // tratar de nunca usar any
 
 //en el tsconfig, podemos evitar usar any,
-//no es recomendable, sin embargo para hacer una implementacion rapida se puede usar y 
+//no es recomendable, sin embargo para hacer una implementacion rapida se puede 
+//usar y 
 //despues la dejamos de usar haciendo bien la refactorizacion del codigo.
 
 (()=>{
 
     let avenger: any = 123;
 
-    //al declarar una variable con let y no ponerle un tipo de dato por defecto ese any
+    //al declarar una variable con let y no ponerle un tipo de dato por defecto ese 
+    //any
     //const exist; esto marca error, una constante siempre debe ser inicializada.
     let exist;
     let power;
 
     //casting de any a X valor
-    let avengerString: string = (avenger as string).charAt(0); // accedemos a los valores de un string aunque sea numero
+    let avengerString: string = (avenger as string).charAt(0);
+     // accedemos a los valores de un string aunque sea numero
     //otra forma de castear
-    let avengerString2: string = (<string>avenger).charAt(0); // accedemos a los valores de un string aunque sea numero
+
+    let avengerString2: string = (<string>avenger).charAt(0); 
+    // accedemos a los valores de un string aunque sea numero
 
 
-    //si hicieras el tipado de los datos desde un inicio esto no se podria realizar ya que 
+    //si hicieras el tipado de los datos desde un inicio esto no se podria realizar ya 
+    //que 
     //seria de tipo number,
     avenger = 'Dr. Strange';  // esto es permitido por que es Any, 
     //casteando a numero
@@ -29,9 +35,5 @@
     let numeroAvenger2: number = (avenger as number);
     
     let numero:string = numeroAvenger.toFixed(2);
-
-    
-    
-    
 
 })()

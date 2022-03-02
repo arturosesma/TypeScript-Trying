@@ -5,7 +5,8 @@
     //     return a+b;
     // }
     //... esto, si es el ECMS6
-    //las funciones flechas las declaras y las usas ahi mismo, y el return se almacena en la variable 
+    //las funciones flechas las declaras y las usas ahi mismo, y el return se almacena en la 
+    //variable 
     //donde la setas usando, su el return es al instante entonces 
     //podemos colocar la exprecion despues de la flecha.
     const addNumber = (a, b) => a + b;
@@ -20,7 +21,8 @@
     myFunction = addNumber;
     console.log(myFunction(1, 2));
     myFunction = greet;
-    //console.log(myFunction(1,2)); //esto marca un error, por uqe ahora hace referencia a la funcion
+    //console.log(myFunction(1,2)); //esto marca un error, por uqe ahora hace referencia 
+    //a la funcion
     //greet, lo cual espera un string
     console.log(myFunction('1,2'));
     //esta funcion jala bien por que no es necesario meterle un argumento

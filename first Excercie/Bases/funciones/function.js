@@ -7,7 +7,7 @@
     }
     let nombre = returnName();
     //esta funcion flecha nos ahorramos crear la funcion y mandarla a llamar
-    //directamente la ejecturamos y el retorno la guradamos 
+    //directamente la ejecutamos y el retorno la guradamos 
     //dentro de la variable.
     //funcion flecha, la variable activateBatisignal 
     //es un valor de tipo funcion, no de tipo string.

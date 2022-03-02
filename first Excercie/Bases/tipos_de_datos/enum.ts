@@ -16,8 +16,8 @@
 
     const currentAudio = AudioLevel.medium;
 
-    console.log(currentAudio); //vamos a ver 1, ya que tiene el valor de medium que por defecto es 1.
-
+    console.log(currentAudio); 
+    //vamos a ver 1, ya que tiene el valor de medium que por defecto es 1.
 
     //asi le doy yo los vales que quiera darle
     enum OtroEnum {
@@ -35,7 +35,4 @@
         dos,
         tres = 25,
     }
-
-
-
 })()

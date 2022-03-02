@@ -6,7 +6,8 @@
     //si TS va a inferir que tipos de datos puede almacenar el array
     const numbers = [1,2,3,4,5,'6',6,7];
 
-    //esto no se puede, por que al definir el array no le damos permisos de ingresar un array con booleanos
+    //esto no se puede, por que al definir el array no le damos 
+    //permisos de ingresar un array con booleanos
     //numbers.push(true);
 
 
@@ -16,7 +17,8 @@
     otraArray.push(false);
 
     //definiendo los tipos de datos que puede tener un array
-    //el array esta vacio, pero podemos declaralo vacio e irle agregando datos
+    //el array esta vacio, pero podemos declaralo vacio e irle agregando 
+    //datos
     const arrayDefinido: (string | number | boolean )[] = [];
 
     //el metodo push nos permite agregar datos al array
@@ -29,7 +31,8 @@
         v.toUpperCase;
     });
 
-    //el foreach, retorna para cada elemento lo que le apliquemos y lo almacena ahi,
+    //el foreach, retorna para cada elemento lo que le apliquemos y lo 
+    //almacena ahi,
     //es decir recorre cada elemento, y en casa posicion ahi lo va a 
     //almacenar sea lo que sea que le hagamos al elemento.
     
