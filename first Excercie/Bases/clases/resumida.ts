@@ -2,7 +2,8 @@
 
     class Avenger {
         
-        //private name: string = '';  //este ya no es necesario, con private en el argumento del constructor lo auto asigno.
+        //private name: string = '';  //este ya no es necesario, 
+        //con private en el argumento del constructor lo auto asigno.
         //public team: string = '';
         //realName: string = '';
         static age?: number = 35; 
